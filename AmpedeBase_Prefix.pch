@@ -1,0 +1,55 @@
+//
+// Prefix header for all source files of the 'AmpedeBase' target in the 'AmpedeBase' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <Cocoa/Cocoa.h>
+    #import <QTKit/QTKit.h>
+    #import <Quartz/Quartz.h>
+    #import <QuartzCore/CoreImage.h>
+    #import <WebKit/WebKit.h>
+#endif
+
+// Debug Values
+//#define DS_ASSERTIONS_ON
+//#define DEBUG
+
+#import "DSMacros.h"
+#import "DSUtilities.h"
+//#import "DSEntityErrorDomains.h"
+//#import "DSLogger.h"
+
+// Cocoa Extensions
+#import "NSArrayController+DSExtensions.h"
+#import "NSTreeController+DSExtensions.h"
+#import "NSOutlineView+DSExtensions.h"
+#import "NSManagedObject+DSExtensions.h"
+#import "NSObject+DSExtensions.h"
+#import "QTMovie+DSExtensions.h"
+#import "NSBezierPath+DSExtensions.h"
+#import "NSDate+DSExtensions.h"
+#import "NSView+DSExtensions.h"
+
+// Constants with extern linkage
+//DS_EXTERN NSString *DSVideoEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSGraphicEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSFlashEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSAudioEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSURLEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSTextEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSControlEntityPlistOfURIsPasteboardType;
+//DS_EXTERN NSString *DSPlaylistEntityPlistOfURIsPasteboardType; 
+//DS_EXTERN NSString *DSPlaylistItemEntityPlistOfURIsPasteboardType; 
+//DS_EXTERN NSString *DSAppGroupChangedNotification;
+//DS_EXTERN NSString *DSTemplateWindowAutosaveName;
+
+// Notifications with extern linkage
+//DS_EXTERN NSString *DSLayerItemsArrayControllerSelectionDidChangeNotification;
+
+// Global values 
+//DS_EXTERN int DSApplicationMode;
+
+//#define DSSchedulerMode 0
+//#define DSPlayerMode 1
